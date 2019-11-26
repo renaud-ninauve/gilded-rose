@@ -1,9 +1,11 @@
 package fr.ninauve.renaud.kata.gildedrose;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 @AllArgsConstructor
 public class Item {
 

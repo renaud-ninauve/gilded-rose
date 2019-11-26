@@ -1,5 +1,7 @@
 package fr.ninauve.renaud.kata.gildedrose;
 
+import fr.ninauve.renaud.kata.gildedrose.updatequality.UpdateQuality;
+import fr.ninauve.renaud.kata.gildedrose.updatequality.UpdateQualityFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;

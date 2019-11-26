@@ -1,5 +1,7 @@
-package fr.ninauve.renaud.kata.gildedrose;
+package fr.ninauve.renaud.kata.gildedrose.updatequality;
 
+import fr.ninauve.renaud.kata.gildedrose.Item;
+import fr.ninauve.renaud.kata.gildedrose.updatequality.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,5 +1,8 @@
 package fr.ninauve.renaud.kata.gildedrose;
 
+import fr.ninauve.renaud.kata.gildedrose.updatequality.UpdateQuality;
+import fr.ninauve.renaud.kata.gildedrose.updatequality.UpdateQualityFactory;
+
 class GildedRose {
 
     private final UpdateQualityFactory updateQualityFactory;

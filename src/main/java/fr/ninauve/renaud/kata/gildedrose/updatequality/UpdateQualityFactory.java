@@ -1,4 +1,6 @@
-package fr.ninauve.renaud.kata.gildedrose;
+package fr.ninauve.renaud.kata.gildedrose.updatequality;
+
+import fr.ninauve.renaud.kata.gildedrose.Item;
 
 import java.util.HashMap;
 import java.util.Map;
