@@ -31,7 +31,7 @@ public class NonRegressionTest {
 
         final List<Item> items = NAMES.stream()
                 .flatMap(name -> SELL_IN.stream().map(sellIn -> new Item(name, sellIn, -1)))
-                .flatMap(item -> QUALITY.stream().map(quality -> new Item(item.name, item.sellIn, item.quality)))
+                .flatMap(item -> QUALITY.stream().map(quality -> new Item(item.getName(), item.getSellIn(), item.getQuality())))
                 .collect(Collectors.toList());
 
         return new GildedRose(items.toArray(new Item[items.size()]));
@@ -39,7 +39,7 @@ public class NonRegressionTest {
 
     private static void print(PrintStream printStream, GildedRose gildedRose) {
 
-        for (Item item : gildedRose.items) {
+        for (Item item : gildedRose.getItems()) {
             printStream.println(item);
         }
     }
